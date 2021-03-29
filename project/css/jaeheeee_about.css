@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Rubik', 'Noto Sans KR', sans-serif;
+}
+.w1280{
+    width: 1280px;
+    margin: 0 auto;
+}
+.blue_bgc{
+    width: 100%;
+    background-color: #00609c;
+}
+
+/*헤더*/
+.header .logo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    /*플롯*/
+    float: left;
+}
+.header .gnb{
+    padding-top: 37px;
+}
+.lnb li{
+    /*플롯*/
+    float: right;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 20px;
+}
+.lnb li:hover{
+    background-color: #fff;
+    color: #00609c;
+}
+.header .gnb .snb{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/nav_h_icon.png') no-repeat;
+    cursor: pointer;
+    /*플롯*/
+    float: right;
+    margin-top: 10px;
+    margin-left: 80px;
+    transition: .3s;
+}
+.header .gnb .snb:hover{
+    background: url('../img/nav_h_icon_hover.png') no-repeat;
+}
+
+
+
+
+/*콘텐츠*/
+.about_wrap{
+    width: 100%;
+    /*포지션 기준*/
+    position: relative;
+}
+.about_wrap .deco_line2{
+    /*포지션*/
+    position: absolute;
+    right: 300px; top: -80px;
+}
+.about_wrap .contents1 h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #00609c;
+    margin-bottom: 40px;
+    margin-top: 70px;
+
+}
+
+/*contents1 영역*/
+.about_wrap .contents1 .sec_1 img{
+    /*플롯*/
+    float: left;
+    margin-right: 120px;
+}
+.about_wrap .contents1 .sec_1 h2{
+    /*플롯*/
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #424242;
+    margin-top: 70px;
+}
+.about_wrap .contents1 .sec_1 h2 span{
+    background-color: #424242;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2;
+    padding: 2px 12px;
+    margin-right: 24px;   
+    /*플롯*/
+    float: left;
+}
+.about_wrap .contents1 .sec_1 h2 a img{    
+    /*플롯*/
+    float: left;
+    margin-top: 15px;
+}
+.about_wrap .contents2{
+    margin-top: 40px;
+}
+
+/*about영역 공통CSS*/
+.about_wrap h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00609c;
+    padding-right: 16px;
+    margin-bottom: 16px;
+}
+.about_wrap h4 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00609c;
+}
+.about_wrap p{
+    font-size: 14px;
+    line-height: 1.75;
+    color: #616161;
+}
+.about_wrap .title img{
+    /*플롯*/
+    float: left;
+    padding-right: 24px;
+}
+.about_wrap .title h4{
+    /*플롯*/
+    float: left;
+    padding-top: 8px;
+}
+.about_wrap .float_p p{  
+    /*플롯*/
+    float: left;
+    padding-right: 20px;
+}
+.about_wrap .contents2, .about_wrap .contents3,
+.about_wrap .contents4{
+    /*플롯*/
+    float: left;
+}
+
+
+/*contents2 영역*/
+.about_wrap .contents2{
+    margin-right: 125px;
+}
+.about_wrap .contents2 .profile{
+    margin-bottom: 70px;
+}
+
+/*contents3 영역*/
+.about_wrap .contents3{
+    margin-top: 40px;
+    margin-right: 125px;
+}
+.about_wrap .contents3 .license{
+    margin-bottom: 42px;
+}
+.about_wrap .contents3 .work{
+    margin-bottom: 60px;
+}
+
+/*contents4 영역*/
+.about_wrap .contents4{
+    margin-top: 40px;
+}
+.about_wrap .contents4 .skill_icon1 {
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+.about_wrap .contents4 .skill_icon1 img,
+.about_wrap .contents4 .skill_icon2 img{
+    padding-right: 40px;
+}
